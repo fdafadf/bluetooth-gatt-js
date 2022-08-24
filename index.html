@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js" type="module"></script>
+    <link rel="stylesheet" href="default.css">
+</head>
+<body style="padding: 0; margin: 0;">
+    <div id="page">
+        <div id="pair_panel">
+            <label>HR Max</label>
+            <input id="hr_max" type="number" value="100" />
+            <button id="pair_button">Pair Device</button>
+            <button id="simulation_button">Simulation</button>
+        </div>
+        <table id="hr_characteristic" class="characteristic" style="display: none;">
+            <tr>
+                <td id="hr_label">❤</td>
+                <td id="hr_chart_container" rowspan="2"></td>
+            </tr>
+            <tr>
+                <td id="hr_value">123</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

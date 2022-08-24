@@ -1,0 +1,21 @@
+#page {
+    width: 100vw; height: 100vh; display: flex; flex-flow: column;
+}
+#pair_panel {
+    padding: 1em;
+}
+#hr_chart {
+    flex: 1; overflow: hidden; text-align: center;
+}
+.characteristic {
+    flex: 1;
+}
+.characteristic td:first-child {
+    min-width: 15vw;
+    text-align: center;
+    font-size: 10vw;
+}
+canvas {
+    border-radius: 25px;
+    box-shadow: 0px 0px 1em #bbb;
+}
